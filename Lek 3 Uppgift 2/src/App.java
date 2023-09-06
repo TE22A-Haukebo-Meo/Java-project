@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import java.lang.Math;
+
 public class App {
     public static void main(String[] args) throws Exception{
         Scanner tb = new Scanner(System.in);
@@ -20,5 +22,6 @@ public class App {
         System.out.println(tal3+"/"+tal4+"="+kvot);
         int modulo = tal1%tal2;
         System.out.println(tal1+"%"+tal2+"="+modulo);
+        System.out.println(Math.pow(tal3, tal4));
     }
 }
